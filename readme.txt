@@ -29,6 +29,7 @@ Independent tools:
 - readResol.py generates the metadata resolution (dpi) to resolution.txt, that will be injected in metadatabooks.txt, to finally be included in DjVu.
 - treat_list.php merges the metadata inputs into a single metadatabooks.txt, to be used for by mainBnF process to add data to DjVu &co.
 - packOCR.sh packs the files needed by the wikibot to init wikisource pages.
+- imageExtractor.py extract the images from TIFF files given the position in the XML ALTO.
 
 pywikipedia:
 - initwsbook.py, initiate the index pages and the pages of the Wikisource books. To be launched after mainBnF.py.
